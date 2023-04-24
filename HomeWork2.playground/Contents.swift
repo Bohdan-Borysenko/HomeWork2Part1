@@ -14,20 +14,20 @@ print("Хатня тварина голодна: \(hungry) ")
 
 // Розділ 1.2 - Змінні
 
-var userName = "Bohdan"
-var serName = "Borysenko"
-var ageUser = 23
-var height = 1.83
-var weightUser = 73.5
-var marriage = false
-
-print("Інформація за 2018 р.:")
-print("Ім'я: \(userName)")
-print("Прізвище: \(serName)")
-print("Вік: \(ageUser)")
-print("зріст: \(height) см")
-print("Вага: \(weightUser) кг")
-print("У шлюбі: \(marriage)")
+//var userName = "Bohdan"
+//var serName = "Borysenko"
+//var ageUser = 23
+//var height = 1.83
+//var weightUser = 73.5
+//var marriage = false
+//
+//print("Інформація за 2018 р.:")
+//print("Ім'я: \(userName)")
+//print("Прізвище: \(serName)")
+//print("Вік: \(ageUser)")
+//print("зріст: \(height) см")
+//print("Вага: \(weightUser) кг")
+//print("У шлюбі: \(marriage)")
 
 //var ageUser = 24
 //var height = 1.85
@@ -46,14 +46,14 @@ print("У шлюбі: \(marriage)")
 
 //typealias Humidity = `int
 
-var pressure = 1020
-var humidity = 50
-var temperature = 18
-
-print("Погода вчора:")
-print("Тиск: \(pressure) hPa")
-print("Вологість: \(humidity)%")
-print("Температура: \(temperature) C")
+//var pressure = 1020
+//var humidity = 50
+//var temperature = 18
+//
+//print("Погода вчора:")
+//print("Тиск: \(pressure) hPa")
+//print("Вологість: \(humidity)%")
+//print("Температура: \(temperature) C")
 //
 //var pressure = 1050
 //var humidity = 20
@@ -66,9 +66,19 @@ print("Температура: \(temperature) C")
 
 /* Розділ 1.4 - Кортежі */
 
-var profileInfo = (firstName: userName, serName: serName, age: ageUser, height: height, weightUser: weightUser, marriage: marriage)
-var weatherInfo = (pressure: pressure, humidity: humidity, temperature: temperature)
-print("Інфорація профіля:")
-print("Ім'я: \(profileInfo.firstName)", "Прізвище: \(profileInfo.serName)", "Вік: \(profileInfo.age)", "Зріст: \(profileInfo.height)", "Вага: \(profileInfo.weightUser)", "У шлюбі: \(profileInfo.marriage)")
-print("Інфорація про погоду:")
-print("Тиск: \(weatherInfo.pressure) hPa", "Вологість: \(weatherInfo.humidity) %", "Температура: \(weatherInfo.temperature) C")
+//var profileInfo = (firstName: userName, serName: serName, age: ageUser, height: height, weightUser: weightUser, marriage: marriage)
+//var weatherInfo = (pressure: pressure, humidity: humidity, temperature: temperature)
+//print("Інфорація профіля:")
+//print("Ім'я: \(profileInfo.firstName)", "Прізвище: \(profileInfo.serName)", "Вік: \(profileInfo.age)", "Зріст: \(profileInfo.height)", "Вага: \(profileInfo.weightUser)", "У шлюбі: \(profileInfo.marriage)")
+//print("Інфорація про погоду:")
+//print("Тиск: \(weatherInfo.pressure) hPa", "Вологість: \(weatherInfo.humidity) %", "Температура: \(weatherInfo.temperature) C")
+
+/* Розділ 1.5 - Опціонали */
+
+var userLoggedIn = true;
+
+print("Користувач авторизован: \(userLoggedIn)")
+
+var userLoggedIn = false;
+
+print("Користувач авторизован: \(userLoggedIn)")
